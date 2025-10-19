@@ -11,8 +11,8 @@
  * typing speed in words per minute (WPM) and accuracy percentage.
  *
  * Usage:
- * Compile: gcc typing_test.c -o typing_test
- * Run: ./typing_test
+ * Compile: gcc typing_test_V1.c -o typing_test
+ * Run: ./typing_test_V1
  *
  * Inputs:
  * - Number of sentences to include in the typing test

@@ -27,11 +27,11 @@ This is a simple console-based typing test program written in C. It generates a 
 2. Compile the program using GCC:
 
    ```bash
-   gcc typing_test.c -o typing_test
+   gcc typing_test_V1.c -o typing_test
 3. Make sure your `sentences.txt` file is in the same directory as the executable.
 4. Run the program:
     ```bash
-    ./typing_test
+    ./typing_test_V1
 
 ---
 

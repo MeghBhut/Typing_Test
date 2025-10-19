@@ -1,4 +1,4 @@
-# Typing Speed and Accuracy Test
+# Typing Speed and Accuracy Test version 2
 
 This is a simple console-based typing test program written in C. It generates a random paragraph by combining sentences read from a text file. Users type the paragraph as quickly and accurately as possible. The program then calculates typing speed (words per minute) and accuracy percentage.
 
@@ -27,11 +27,11 @@ This is a simple console-based typing test program written in C. It generates a 
 2. Compile the program using GCC:
 
    ```bash
-   gcc typing_test.c -o typing_test
+   gcc typing_test_V2.c -o typing_test
 3. Make sure your `sentences.txt` file is in the same directory as the executable.
 4. Run the program:
     ```bash
-    ./typing_test
+    ./typing_test_V2
 
 ---
 
@@ -51,16 +51,16 @@ This is a simple console-based typing test program written in C. It generates a 
 ## Example Output
 
     ```bash
-    Give how many sentences type test want to do: 3
+    Give how many sentences type test want to do: 2
     Type given Para fast:
-    The quick brown fox jumps over the lazy dog The early bird catches the worm A journey of a thousand miles begins with a single  step
-    Start
+    The wizards vault hid five quirky boxing jackals Queen Victorias jester jumped boldly on hazy fox trails
+    Press any key to Start: 
     Your input here...
     =================== Result ===================
-    Words is: 22
-    Time is: 39.00 sec
-    Your speed is: 33.80 WPM
-    Your accuracy is: 99.10 %
+    Words is: 17
+    Time is: 33.00 sec
+    Your speed is: 30.91 WPM
+    Your accuracy is: 87.50 %
     
     ==============================================
 
@@ -69,10 +69,13 @@ This is a simple console-based typing test program written in C. It generates a 
 ## Notes and limitations
 - Input paragraph length limited to 1000 characters, extend it if you want.
 - Sentences read up to 200 lines from the input file, extend it if you want
-- Can be somethimes incompelte as it dont measure live typed word some mistakes
-  while writing paragraph not count in mistakes while accuracy checking.
-- Other thing if some letter is missed typed double times then whole part
-  after that will be given wrong.
+- It dont show which wrong charachter is typed.
+
+---
+
+## Version 2 changes
+- Now it measure charachter lively accurate accuracy
+- Probelm of accedentl new line charachter or missed press enter finish test is solvevd
 
 ---
 

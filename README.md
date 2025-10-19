@@ -1,4 +1,4 @@
-# Typing Speed and Accuracy Test version 2
+# Typing Speed and Accuracy Test version 3
 
 This is a simple console-based typing test program written in C. It generates a random paragraph by combining sentences read from a text file. Users type the paragraph as quickly and accurately as possible. The program then calculates typing speed (words per minute) and accuracy percentage also shows how many and which charachter is missed typed
 
